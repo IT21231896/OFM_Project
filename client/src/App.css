@@ -1,0 +1,457 @@
+
+.wrapper {
+  padding-top: 30px;
+}
+body h3 {
+  margin-bottom: 25px;
+}
+.navbar-brand a {
+  color: #ffffff;
+}
+
+.table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.table-wrapper {
+  max-width: 700px;
+}
+.edit-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+.edit-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* CSS Class for Centered Paragraph with Dark Blue Color */
+.centered-paragraph {
+  text-align: center; 
+  color: #001a69;
+  max-width: 500px;
+  margin: 10pt;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* for Navigation Bar*/
+/* CSS for Login hyperlink as button */
+.navbar-nav .nav-link.login {
+  color: #fff;
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Increase font size for better visibility */
+  font-weight: bold; /* Add bold font weight for emphasis */
+  text-transform: uppercase; /* Convert text to uppercase for emphasis */
+}
+
+.navbar-nav .nav-link.login:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+
+/* CSS for Login Page */
+.form-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.centered-paragraph {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+/* for AccountHome Buttons */
+/* CSS for Customer Login and Admin Login links */
+.link-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.link-btn:hover {
+  background-color: #2bfc8d;
+}
+
+
+
+
+/* For CustomerList.js */
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.customer-table th, .customer-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.customer-table th {
+  background-color: #f2f2f2;
+  color: #444;
+  font-weight: bold;
+}
+
+.customer-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.customer-table tr:hover {
+  background-color: #ddd;
+}
+
+/*customerlist Search function*/
+.customer-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.customer-search input {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #302f2f;
+  width: 300px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.customer-search input:focus {
+  outline: none;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.customer-search input::placeholder {
+  color: #3e3e3e;
+}
+
+
+
+/*for buttons*/
+
+.edit-button,
+.delete-button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  font-size: 14px; 
+  margin-right: 5px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #0069d9;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* for downdload pdf report button */
+.download-button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.download-button:hover {
+  background-color: #27ae60;
+}
+
+
+
+
+
+
+/* Css for EditCustomer.js  */
+
+.edit-customer-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 500px;
+}
+
+.edit-customer-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.edit-customer-form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+
+.form-field label {
+  font-size: 16px;
+  margin-bottom: auto;
+}
+
+.form-field input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.form-field input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.update-button {
+  background-color: #3498db;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: #1677b8;
+}
+
+/*Side bar*/
+/*
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.sidebar-menu li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.wrapper {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+  }
+  
+  .wrapper {
+    margin-left: 0;
+  }
+}
+*/
+
+/* HomePage.js*/
+.HomePage {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 4rem 2rem;
+}
+
+.menu-item {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.menu-item h3 {
+  margin-top: 0;
+}
+
+.menu-item img {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .menu-item {
+    text-align: center;
+  }
+}
+
+/*CreateDelivery.js*/
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.form-textarea {
+  width: 100%;
+  height: 8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.form-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+/*for Home page Log out button*/
+.nav-link.logout-btn {
+  background-color: #dc3545; /* red background color */
+  color: #fff; /* white text color */
+  border: none; /* remove border */
+  border-radius: 5px; /* rounded corners */
+  padding: 8px 10px; /* add some padding */
+  font-weight: 500; /* bold text */
+}
+
+.nav-link.logout-btn:hover {
+  background-color: #c82333; /* dark red hover background color */
+  color: #fff; /* white text color */
+  text-decoration: none; /* remove underline on hover */
+}
+
+
+
+/*create New Account*/
+.login_register {
+
+    color:#162938;
+    text-align: center;
+    margin: 25px 0 10px;
+    font-weight: 500;
+}
+
+.login_register p a{
+    color: #162938;
+    text-decoration:none;
+}
+
+.login_register p a:hover{
+    text-decoration:underline;
+}

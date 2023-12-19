@@ -1,0 +1,182 @@
+<<<<<<< HEAD
+/*1.Setup MERN CRUD - Full Stack
+------------------------------
+npx create-react-app client - React JS
+mkdir backend - NodeJS , Express JS
+
+2.Install Dependencies 
+--------------------------------------------
+React
+------
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "react-bootstrap": "^2.0.3",  
+    "react-router-dom": "^5.3.0",
+
+ExpressJS
+----------
+ "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  }
+
+  //frontend css librerys
+import "bootstrap/dist/css/bootstrap.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+Employee - CRUD -ADD,EDIT,DELETE,CREATE
+
+CreateCustomer - Form -> Post
+EditCustomer - PUT
+CustomerList - GET
+
+Router - Navigation
+
+
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+-------------------------------------
+adding the custom CSS in src/App.css file:
+
+.wrapper {
+  padding-top: 30px;
+}
+body h3 {
+  margin-bottom: 25px;
+}
+.navbar-brand a {
+  color: #ffffff;
+}
+.form-wrapper,
+.table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.table-wrapper {
+  max-width: 700px;
+}
+.edit-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+.edit-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+ServerSide - backend
+
+1. Database Setup - MongoDB
+
+http://localhost:8000/emp/delete-empdata/62ada7d76949177b37e0125b
+
+http://localhost:3000/edit-emp/62ada7046949177b37e01257
+
+http://localhost:8000/emp/update-empdata/62ada7046949177b37e01257
+
+=======
+/*1.Setup MERN CRUD - Full Stack
+------------------------------
+npx create-react-app client - React JS
+mkdir backend - NodeJS , Express JS
+
+2.Install Dependencies 
+--------------------------------------------
+React
+------
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "react-bootstrap": "^2.0.3",  
+    "react-router-dom": "^5.3.0",
+
+ExpressJS
+----------
+ "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  }
+
+  //frontend css librerys
+import "bootstrap/dist/css/bootstrap.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+Employee - CRUD -ADD,EDIT,DELETE,CREATE
+
+CreateCustomer - Form -> Post
+EditCustomer - PUT
+CustomerList - GET
+
+Router - Navigation
+
+
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+-------------------------------------
+adding the custom CSS in src/App.css file:
+
+.wrapper {
+  padding-top: 30px;
+}
+body h3 {
+  margin-bottom: 25px;
+}
+.navbar-brand a {
+  color: #ffffff;
+}
+.form-wrapper,
+.table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.table-wrapper {
+  max-width: 700px;
+}
+.edit-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+.edit-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+ServerSide - backend
+
+1. Database Setup - MongoDB
+
+http://localhost:8000/emp/delete-empdata/62ada7d76949177b37e0125b
+
+http://localhost:3000/edit-emp/62ada7046949177b37e01257
+
+http://localhost:8000/emp/update-empdata/62ada7046949177b37e01257
+
+>>>>>>> ea8f12c80343c8d9bd959df72662545447564831
+*/
